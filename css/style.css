@@ -337,6 +337,10 @@ header {
     margin: 0 auto;
 }
 
+.section_title--about {
+    font-size: var(--fs-h2);
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
