@@ -64,7 +64,14 @@ img {
 
 .intro img {
     border-radius: 20px;
-    
+    height: auto;
+    width: 100%;
+}
+
+.about-me_img {
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
 }
 
 a {
@@ -276,7 +283,13 @@ header {
 
 .intro_img {
     box-shadow: var(--bs);
+    max-width: 100%; /* Set the maximum width to 100% of its parent container */
+    height: auto;    /* Maintain the aspect ratio */
+    display: block;  /* Make sure it behaves as a block element */
+    margin-left: auto;  /* Center the image */
+    margin-right: auto; /* Center the image */
 }
+
 
 @media (min-width: 800px) {
     .intro {
