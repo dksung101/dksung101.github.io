@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel Sung Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <script src="https://kit.fontawesome.com/825443e482.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <header>
+    <button class="nav_toggle" aria-label="navigation toggle">
+        <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+                <a href="index.html#services" class="nav_link">Services</a>
+            </li>
+            <li class="nav_item">
+                <a href="index.html#work" class="nav_link">Projects</a>
+            </li>
+            <li class="nav_item">
+                <a href="index.html#contacts" class="nav_link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <section class="intro">
+        <h1 class="section_title section_title--intro">
+            <strong class="gradient-text_space">Space Invaders</strong>
+            <div class="title_part">
+            <a href="https://github.com/dksung101/Space-Invaders" target="blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>    
+            <a href="https://www.youtube.com/watch?v=s3PyM0Koc2A" target="blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>  </div>
+               
+        </h1>
+        <p class="section_subtitle section_subtitle--intro">A Flutter Mobile App</p>
+        <img src="images/spaceinvaders/spaceinvaders.png" alt="a picture of Daniel Sung" class="intro_img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <h2>Description: </h2>
+        <p>The game is a similar replication of space invaders, the retro arcade game, but with additional feature added to the game such as items, obstacles, and randomly moving alien enemies to make it unique. The instructions and controls of the game are displayed within the game but the basics are as follows. The player can control their spaceship in all four directions using the arrow keys and can shoot lasers at the alien enemies to kill them using the Space key. When killing an alien, there is a chance that it drops either a purple or cyan colored item which speeds up or slows down the spaceship's lasers, respectively. After killing enough aliens, the game will progress to the next stage. In later stages, the aliens will shoot faster and therefore will be harder to dodge for the player. There are three ways for the game to end: the player's spaceship is hit by an alien laser, the player's spaceship hits an alien enemy, or an alien reaches the bottom of the screen (Earth). After a player dies, their score will be recorded and if they place in the top 10, they will be displayed in the leaderboard.</p>
+        <hr>
+        <h4 class="spaceinvader">Demo:</h4>
+        <img src="images/spaceinvaders/startpage.png" alt="a picture of start page" class="intro_img">
+        <hr>
+        <h4 class="spaceinvader">Gameplay:</h4>
+        <img src="images/spaceinvaders/playgame.png" alt="a picture of gameplay" class="intro_img">
+        <hr>
+        <h4 class="spaceinvader">GameOver::</h4>
+        <img src="images/spaceinvaders/gameover.png" alt="a picture of gameover" class="intro_img">
+        <hr>
+        <h4 class="spaceinvader">Leaderboard:</h4>
+        <img src="images/spaceinvaders/leaderboard.png" alt="a picture of leaderboard" class="intro_img">
+    </div>
+
+   
+
+    <footer class="footer" id="contacts">
+        <a href="mailto:dksung@andrew.cmu.edu" class="footer_link">dksung@andrew.cmu.edu</a>
+            <!-- <i class="fa-regular fa-envelope"></i> -->
+        <ul class="social-list">
+            <li class="social-list_item">
+                <a href="https://www.linkedin.com/in/dksung/" class="social-list_link">LinkedIn</a>
+                <i class="fa-brands fa-linkedin"></i>
+            </li>
+            <li class="social-list_item">
+                <a href="https://www.github.com/dksung101" class="social-list_link">GitHub</a>
+                <i class="fa-brands fa-github"></i>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
