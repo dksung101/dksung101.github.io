@@ -54,6 +54,8 @@ body {
 
 section {
     padding: 5em 2em;
+    scroll-snap-stop: always;
+
 }
 
 img {
@@ -330,7 +332,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: "../images/profile/profile2.jpg";
+    background-image: "images/profile/profile2.jpg";
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(0,0,0,0.65);
