@@ -332,7 +332,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../images/profile/profile2.jpg);
+    background-image: url(../images/profile/profile2.JPG);
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(0,0,0,0.65);
