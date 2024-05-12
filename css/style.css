@@ -161,6 +161,12 @@ h3 {
     border-radius: 10px;
 }
 
+.section_subtitle {
+    margin: 0;
+    font-size: var(--fs-h4);
+    border-radius: 10px;
+}
+
 .section_subtitle--intro,
 .section_subtitle--about {
     background: var(--clr-accent);
@@ -324,9 +330,10 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../images/finnthehuman.jpeg);
+    background-image: url(../images/profile/profile2.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.65);
     color: var(--clr-light);
     text-align: center;
 }
@@ -381,16 +388,17 @@ header {
 
 .section_title--about {
     font-size: var(--fs-h2);
+    text-align: center;
 }
 
 @media (min-width: 600px) {
     .about-me {
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas:
             "title img"
             "subtitle img"
-            "text img";
+            "text img"; */
         column-gap: 2em;
     }
 
@@ -421,6 +429,22 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+}
+
+.section_title--work {
+    color: var(--clr-accent);
+    font-size: var(--fs-h2);
+    position: relative;
+}
+
+.section_title--work::after {
+    content: '';
+    display: block;
+    width: 5em;
+    height: 1px;
+    margin: 0.25em auto 0.5em;
+    background: var(--clr-light);
+    opacity: 0.25;
 }
 
 .section_subtitle--work {
@@ -635,4 +659,18 @@ header {
     font-size: var(--fs-body);
     margin-left: auto;
     margin-right: auto;
+}
+
+.spaceinvader {
+    display: flex;
+    flex-direction: column;
+}
+
+.page1 {
+    display: flex;
+
+}
+
+.page2 {
+    display: flex;
 }
