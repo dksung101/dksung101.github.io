@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daniel Sung Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+    <script
+      src="https://kit.fontawesome.com/825443e482.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <header>
+      <button class="nav_toggle" aria-label="navigation toggle">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="index.html" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="index.html#whatIdo" class="nav_link">What I Do</a>
+          </li>
+          <li class="nav_item">
+            <a href="index.html#work" class="nav_link">Projects</a>
+          </li>
+          <li class="nav_item">
+            <a href="index.html#contacts" class="nav_link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <h1 class="section_title section_title--intro">
+        <strong class="innerview">InnerView</strong>
+        <a
+          class="articulate-link"
+          href="https://innerview-750dc0fd1bd8.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Link to InnerView
+        </a>
+        <span class="articulate-credentials"
+          >Try it out with:<br />
+          email: guest@gmail.com<br />pw: secret</span
+        >
+      </h1>
+      <p class="section_subtitle section_subtitle--intro">
+        Interview Prep with AI
+      </p>
+      <img
+        src="images/innerviewLogo.png"
+        alt="InnerView Logo"
+        class="intro_img"
+        id="articulateCard"
+      />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <h1>Summary</h1>
+      <h3>
+        InnerView is a web application that helps users prepare for interviews
+        by providing feedback on their responses using AI. Users can practice
+        answering questions and receive feedback on their responses. InnerView
+        uses the Gemini Pro API to analyze the user's responses and provide
+        suggested responses and personalized feedback. Most importantly, users
+        can also store their responses as stories to review them later before an
+        upcoming interview.
+      </h3>
+      <hr />
+      <h1>Tech Stack</h1>
+      <ul>
+        <li>Frontend: React, DaisyUI, Tailwind CSS</li>
+        <li>
+          Backend/Database: Node.js, Express.js, Firebase Firestore, Firebase
+          Auth
+        </li>
+        <li>AI API: Gemini Pro API</li>
+        <li>Hosting: Heroku</li>
+      </ul>
+    </div>
+    <footer class="footer" id="contacts">
+      <a href="mailto:dksung@andrew.cmu.edu" class="footer_link"
+        >dksung@andrew.cmu.edu</a
+      >
+      <!-- <i class="fa-regular fa-envelope"></i> -->
+      <ul class="social-list">
+        <li class="social-list_item">
+          <a href="https://www.linkedin.com/in/dksung/" class="social-list_link"
+            >LinkedIn</a
+          >
+          <i class="fa-brands fa-linkedin"></i>
+        </li>
+        <li class="social-list_item">
+          <a href="https://www.github.com/dksung101" class="social-list_link"
+            >GitHub</a
+          >
+          <i class="fa-brands fa-github"></i>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
