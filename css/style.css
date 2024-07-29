@@ -462,7 +462,7 @@ header {
   overflow: hidden;
   position: relative;
   cursor: pointer;
-  height: 375px;
+  height: 275px;
   margin: 15px;
   border-radius: 10px;
   box-shadow: var(--bs);
@@ -509,7 +509,7 @@ header {
 }
 
 .portfolio_item_text h2 {
-  font-size: var(--fs-h2);
+  font-size: 50px;
   font-weight: var(--fw-bold);
 }
 
