@@ -161,6 +161,10 @@ h3 {
   margin: 0;
   font-size: var(--fs-h4);
   border-radius: 10px;
+  text-align: right;
+  position: relative;
+
+  width: calc(100% + 1.5em);
 }
 
 .section_subtitle {
@@ -284,8 +288,17 @@ header {
 
 /* intro section */
 
+/* .intro-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+} */
+
 .intro {
-  position: relative;
+  flex-direction: column;
+  width: 100%;
 }
 
 .intro_img {
@@ -298,6 +311,11 @@ header {
 }
 
 @media (min-width: 800px) {
+  #home {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
   .intro {
     display: grid;
     width: min-content;
